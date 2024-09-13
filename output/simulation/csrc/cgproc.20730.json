@@ -1,0 +1,36 @@
+{
+    "Modules": {
+        "MemorySegments": {},
+        "Decode_Stage": {},
+        "Fetch_Stage": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "Stall_Handler": {},
+        "Extend": {},
+        "RISCV_ISA": {}
+    },
+    "CompUnits": {
+        "EL0ch_d": {
+            "archive": "archive.7/_20730_archive_1.a",
+            "mod": "Fetch_Stage",
+            "out": "EL0ch_d.o",
+            "bytes": 85998,
+            "mode": 4,
+            "checksum": 4294967295
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "EL0ch_d.o",
+                    85998
+                ]
+            ],
+            "archive": "archive.7/_20730_archive_1.a",
+            "size": 85998
+        }
+    ]
+}

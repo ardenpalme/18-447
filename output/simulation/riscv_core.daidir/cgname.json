@@ -1,0 +1,127 @@
+{
+    "main_memory": [
+        "main_memory",
+        "cChMZ",
+        "module"
+    ],
+    "multcsa": [
+        "multcsa",
+        "MmNg1",
+        "module"
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module"
+    ],
+    "Forwarding_Unit": [
+        "Forwarding_Unit",
+        "qpJpv",
+        "module"
+    ],
+    "_vcs_unit__57780902": [
+        "_vcs_unit__57780902",
+        "APVT4",
+        "module"
+    ],
+    "clock": [
+        "clock",
+        "fmg7t",
+        "module"
+    ],
+    "delay_buffer_0000": [
+        "delay_buffer_0000",
+        "rqPuy",
+        "module"
+    ],
+    "std": [
+        "std",
+        "reYIK",
+        "module"
+    ],
+    "RISCV_ISA": [
+        "RISCV_ISA",
+        "fxGgQ",
+        "module"
+    ],
+    "RISCV_RegisterNames": [
+        "RISCV_RegisterNames",
+        "BJfnc",
+        "module"
+    ],
+    "RISCV_ABI": [
+        "RISCV_ABI",
+        "hed3B",
+        "module"
+    ],
+    "MemorySegments": [
+        "MemorySegments",
+        "AE4xR",
+        "module"
+    ],
+    "multf": [
+        "multf",
+        "DMMfc",
+        "module"
+    ],
+    "Stall_Handler": [
+        "Stall_Handler",
+        "RMJrY",
+        "module"
+    ],
+    "RISCV_UArch": [
+        "RISCV_UArch",
+        "s1Bga",
+        "module"
+    ],
+    "top": [
+        "top",
+        "Emx8S",
+        "module"
+    ],
+    "delay_buffer": [
+        "delay_buffer",
+        "nLzf7",
+        "module"
+    ],
+    "Locate_Hazard": [
+        "Locate_Hazard",
+        "rVpzc",
+        "module"
+    ],
+    "register": [
+        "register",
+        "DAC4W",
+        "module"
+    ],
+    "PipelineCounter": [
+        "PipelineCounter",
+        "rNyGg",
+        "module"
+    ],
+    "Fetch_Stage2": [
+        "Fetch_Stage2",
+        "JxSCY",
+        "module"
+    ],
+    "Decode_Stage": [
+        "Decode_Stage",
+        "hjE7F",
+        "module"
+    ],
+    "Fetch_Stage": [
+        "Fetch_Stage",
+        "EL0ch",
+        "module"
+    ],
+    "Extend": [
+        "Extend",
+        "g1vD7",
+        "module"
+    ],
+    "Writeback_Stage": [
+        "Writeback_Stage",
+        "ZZMkr",
+        "module"
+    ]
+}

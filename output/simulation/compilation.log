@@ -1,0 +1,23 @@
+
+Lint-[UI] Unused input
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/cache.sv, 382
+  Following is an unused input.
+  Source info: we
+
+
+Lint-[VNGS] Variable never gets set
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/cache.sv, 112
+  Following variable has never been set any value.
+  Source info: start_cache_fill
+
+
+Note-[VCS_PARAL] Parallel code-gen enabled
+  VCS is running with parallel code generation(-j)...
+
+22 modules and 0 UDP read.
+	However, due to incremental compilation, only 3 modules need to be compiled.
+make[1]: Entering directory `/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/output/simulation/csrc'
+make[1]: Leaving directory `/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/output/simulation/csrc'
+make[1]: Entering directory `/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/output/simulation/csrc'
+../riscv_core up to date
+make[1]: Leaving directory `/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/output/simulation/csrc'

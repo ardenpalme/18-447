@@ -1,0 +1,9 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/output/simulation
+SystemC=FALSE
+UUM=FALSE
+KDB=FALSE
+USE_NOVAS_HOME=FALSE
+TOP=multf multcsa top Fetch_Stage2 

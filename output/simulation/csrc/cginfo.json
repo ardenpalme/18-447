@@ -1,0 +1,458 @@
+{
+    "MlibObjs": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "PipelineCounter"
+    ],
+    "NameTable": {
+        "main_memory": [
+            "main_memory",
+            "cChMZ",
+            "module"
+        ],
+        "multcsa": [
+            "multcsa",
+            "MmNg1",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "Forwarding_Unit": [
+            "Forwarding_Unit",
+            "qpJpv",
+            "module"
+        ],
+        "_vcs_unit__57780902": [
+            "_vcs_unit__57780902",
+            "APVT4",
+            "module"
+        ],
+        "clock": [
+            "clock",
+            "fmg7t",
+            "module"
+        ],
+        "delay_buffer_0000": [
+            "delay_buffer_0000",
+            "rqPuy",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "RISCV_ISA": [
+            "RISCV_ISA",
+            "fxGgQ",
+            "module"
+        ],
+        "RISCV_RegisterNames": [
+            "RISCV_RegisterNames",
+            "BJfnc",
+            "module"
+        ],
+        "RISCV_ABI": [
+            "RISCV_ABI",
+            "hed3B",
+            "module"
+        ],
+        "MemorySegments": [
+            "MemorySegments",
+            "AE4xR",
+            "module"
+        ],
+        "multf": [
+            "multf",
+            "DMMfc",
+            "module"
+        ],
+        "Stall_Handler": [
+            "Stall_Handler",
+            "RMJrY",
+            "module"
+        ],
+        "RISCV_UArch": [
+            "RISCV_UArch",
+            "s1Bga",
+            "module"
+        ],
+        "top": [
+            "top",
+            "Emx8S",
+            "module"
+        ],
+        "delay_buffer": [
+            "delay_buffer",
+            "nLzf7",
+            "module"
+        ],
+        "Locate_Hazard": [
+            "Locate_Hazard",
+            "rVpzc",
+            "module"
+        ],
+        "register": [
+            "register",
+            "DAC4W",
+            "module"
+        ],
+        "PipelineCounter": [
+            "PipelineCounter",
+            "rNyGg",
+            "module"
+        ],
+        "Fetch_Stage2": [
+            "Fetch_Stage2",
+            "JxSCY",
+            "module"
+        ],
+        "Decode_Stage": [
+            "Decode_Stage",
+            "hjE7F",
+            "module"
+        ],
+        "Fetch_Stage": [
+            "Fetch_Stage",
+            "EL0ch",
+            "module"
+        ],
+        "Extend": [
+            "Extend",
+            "g1vD7",
+            "module"
+        ],
+        "Writeback_Stage": [
+            "Writeback_Stage",
+            "ZZMkr",
+            "module"
+        ]
+    },
+    "PrevCompiledModules": {
+        "multcsa": {
+            "MmNg1_d": {
+                "bytes": 52709,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "multcsa",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "MmNg1_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 10411,
+                "mod": "...MASTER...",
+                "out": "objs/amcQw_d.o",
+                "mode": 4,
+                "checksum": 4294967295
+            }
+        },
+        "delay_buffer_0000": {
+            "rqPuy_d": {
+                "bytes": 25719,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "delay_buffer_0000",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "rqPuy_d.o"
+            }
+        },
+        "Forwarding_Unit": {
+            "qpJpv_d": {
+                "bytes": 73393,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "Forwarding_Unit",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "qpJpv_d.o"
+            }
+        },
+        "clock": {
+            "fmg7t_d": {
+                "bytes": 8088,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "clock",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "fmg7t_d.o"
+            }
+        },
+        "_vcs_unit__57780902": {
+            "APVT4_d": {
+                "bytes": 28466,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "_vcs_unit__57780902",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "APVT4_d.o"
+            }
+        },
+        "Fetch_Stage": {
+            "EL0ch_d": {
+                "bytes": 86844,
+                "archive": "archive.7/_20730_archive_1.a",
+                "mod": "Fetch_Stage",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "EL0ch_d.o"
+            }
+        },
+        "delay_buffer": {
+            "nLzf7_d": {
+                "bytes": 25587,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "delay_buffer",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "nLzf7_d.o"
+            }
+        },
+        "Locate_Hazard": {
+            "rVpzc_d": {
+                "bytes": 62198,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "Locate_Hazard",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "rVpzc_d.o"
+            }
+        },
+        "Extend": {
+            "g1vD7_d": {
+                "bytes": 23308,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "Extend",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "g1vD7_d.o"
+            }
+        },
+        "Fetch_Stage2": {
+            "JxSCY_d": {
+                "bytes": 43175,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "Fetch_Stage2",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "JxSCY_d.o"
+            }
+        },
+        "Decode_Stage": {
+            "hjE7F_d": {
+                "bytes": 136469,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "Decode_Stage",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "hjE7F_d.o"
+            }
+        },
+        "RISCV_RegisterNames": {
+            "BJfnc_d": {
+                "bytes": 24703,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "RISCV_RegisterNames",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "BJfnc_d.o"
+            }
+        },
+        "RISCV_ISA": {
+            "fxGgQ_d": {
+                "bytes": 12921,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "RISCV_ISA",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "fxGgQ_d.o"
+            }
+        },
+        "Writeback_Stage": {
+            "ZZMkr_d": {
+                "bytes": 24152,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "Writeback_Stage",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "ZZMkr_d.o"
+            }
+        },
+        "RISCV_UArch": {
+            "s1Bga_d": {
+                "bytes": 6419,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "RISCV_UArch",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "s1Bga_d.o"
+            }
+        },
+        "Stall_Handler": {
+            "RMJrY_d": {
+                "bytes": 31125,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "Stall_Handler",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "RMJrY_d.o"
+            }
+        },
+        "multf": {
+            "DMMfc_d": {
+                "bytes": 42518,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "multf",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "DMMfc_d.o"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "bytes": 35651,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "std",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "reYIK_d.o"
+            }
+        },
+        "top": {
+            "Emx8S_d": {
+                "bytes": 379417,
+                "archive": "archive.7/_20729_archive_1.a",
+                "mod": "top",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "Emx8S_d.o"
+            }
+        },
+        "PipelineCounter": {
+            "rNyGg_d": {
+                "bytes": 86746,
+                "archive": "archive.7/_20712_archive_1.a",
+                "mod": "PipelineCounter",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "rNyGg_d.o"
+            }
+        },
+        "main_memory": {
+            "cChMZ_d": {
+                "bytes": 126223,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "main_memory",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "cChMZ_d.o"
+            }
+        },
+        "register": {
+            "DAC4W_d": {
+                "bytes": 17725,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "register",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "DAC4W_d.o"
+            }
+        },
+        "MemorySegments": {
+            "AE4xR_d": {
+                "bytes": 16487,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "MemorySegments",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "AE4xR_d.o"
+            }
+        },
+        "RISCV_ABI": {
+            "hed3B_d": {
+                "bytes": 8258,
+                "archive": "archive.7/_prev_archive_1.a",
+                "mod": "RISCV_ABI",
+                "mode": 4,
+                "checksum": 4294967295,
+                "out": "hed3B_d.o"
+            }
+        }
+    },
+    "Misc": {
+        "default_output_dir": "csrc",
+        "cwd": "/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/output/simulation",
+        "daidir": "/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/output/simulation/riscv_core.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/output/simulation/csrc",
+        "archive_dir": "archive.7",
+        "daidir_abs": "/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/output/simulation/riscv_core.daidir"
+    },
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "CodeGen(%)": 10.671613546642201,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0027460000000000002,
+            "ru_minflt": 2236,
+            "ru_stime_sec": 0.014609,
+            "ru_nvcsw": 6,
+            "ru_maxrss_kb": 13104,
+            "ru_nivcsw": 8,
+            "ru_majflt": 0
+        },
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.32335000000000003,
+            "ru_minflt": 16804,
+            "ru_stime_sec": 0.092099,
+            "ru_nvcsw": 185,
+            "ru_maxrss_kb": 60288,
+            "ru_nivcsw": 8,
+            "ru_majflt": 0
+        },
+        "totalObjSize": 188408,
+        "mopSpeed": 101348.72763985615,
+        "nMops": 3915,
+        "nQuads": 2030,
+        "ru_self_end": {
+            "ru_utime_sec": 0.361979,
+            "ru_minflt": 20804,
+            "ru_stime_sec": 0.136239,
+            "ru_nvcsw": 312,
+            "ru_maxrss_kb": 68776,
+            "ru_nivcsw": 11,
+            "ru_majflt": 0
+        },
+        "mop/quad": 1.9285714285714286,
+        "quadSpeed": 52551.192109555042,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.20457800000000001,
+            "ru_minflt": 11686,
+            "ru_stime_sec": 0.070414000000000004,
+            "ru_nvcsw": 140,
+            "ru_maxrss_kb": 33244,
+            "ru_nivcsw": 22,
+            "ru_majflt": 0
+        },
+        "outputSizePerQuad": 92.0,
+        "Frontend(%)": 89.328386453357794
+    },
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 91251
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PEModules": [],
+    "CompileStatus": "Successful",
+    "CompileProcesses": [
+        "cgproc.20712.json",
+        "cgproc.20729.json",
+        "cgproc.20730.json",
+        "cgproc.20731.json"
+    ]
+}

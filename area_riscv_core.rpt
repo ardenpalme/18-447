@@ -1,0 +1,38 @@
+[4mArea Report: output/synthesis/area_riscv_core.rpt:(B[m
+
+ 
+****************************************
+Report : area
+Design : riscv_core_timing
+Version: J-2014.09-SP4
+Date   : Wed Apr 27 18:10:36 2022
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: Design 'riscv_core_timing' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Timing loop detected. (OPT-150)
+	RISCV_Core/MEM_STG/DATA_CACHE/FSM/U30/A RISCV_Core/MEM_STG/DATA_CACHE/FSM/U30/Y RISCV_Core/MEM_STG/DATA_CACHE/FSM/U14/B0 RISCV_Core/MEM_STG/DATA_CACHE/FSM/U14/Y RISCV_Core/MEM_STG/DATA_CACHE/U228/A RISCV_Core/MEM_STG/DATA_CACHE/U228/Y RISCV_Core/MEM_STG/DATA_CACHE/U229/A RISCV_Core/MEM_STG/DATA_CACHE/U229/Y RISCV_Core/MEM_STG/DATA_CACHE/U469/A RISCV_Core/MEM_STG/DATA_CACHE/U469/Y RISCV_Core/MEM_STG/DATA_CACHE/U352/A RISCV_Core/MEM_STG/DATA_CACHE/U352/Y RISCV_Core/MEM_STG/DATA_CACHE/U477/A1N RISCV_Core/MEM_STG/DATA_CACHE/U477/Y RISCV_Core/MEM_STG/DATA_CACHE/U485/A RISCV_Core/MEM_STG/DATA_CACHE/U485/Y RISCV_Core/MEM_STG/DATA_CACHE/U472/A RISCV_Core/MEM_STG/DATA_CACHE/U472/Y RISCV_Core/MEM_STG/DATA_CACHE/U486/A RISCV_Core/MEM_STG/DATA_CACHE/U486/Y RISCV_Core/MEM_STG/DATA_CACHE/U516/A RISCV_Core/MEM_STG/DATA_CACHE/U516/Y RISCV_Core/MEM_STG/DATA_CACHE/U282/A0 RISCV_Core/MEM_STG/DATA_CACHE/U282/Y 
+Warning: Disabling timing arc between pins 'B0' and 'Y' on cell 'RISCV_Core/MEM_STG/DATA_CACHE/FSM/U14'
+         to break a timing loop. (OPT-314)
+Library(s) Used:
+
+    typical (File: /afs/ece/class/ece447/tools/synopsys/typical.db)
+
+Number of ports:                          232
+Number of nets:                           299
+Number of cells:                           11
+Number of combinational cells:              8
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          2
+Number of references:                       8
+
+Combinational area:            2271189.434972
+Buf/Inv area:                   673662.531504
+Noncombinational area:         2841104.896099
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:               5112294.331071
+Total area:                 undefined
+1

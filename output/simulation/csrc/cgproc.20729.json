@@ -1,0 +1,36 @@
+{
+    "Modules": {
+        "top": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "_vcs_unit__57780902": {},
+        "multcsa": {},
+        "Forwarding_Unit": {},
+        "std": {},
+        "Writeback_Stage": {}
+    },
+    "CompUnits": {
+        "Emx8S_d": {
+            "archive": "archive.7/_20729_archive_1.a",
+            "mod": "top",
+            "out": "Emx8S_d.o",
+            "bytes": 379317,
+            "mode": 4,
+            "checksum": 4294967295
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "objects": [
+                [
+                    "Emx8S_d.o",
+                    379317
+                ]
+            ],
+            "archive": "archive.7/_20729_archive_1.a",
+            "size": 379317
+        }
+    ]
+}

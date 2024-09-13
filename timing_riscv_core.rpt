@@ -1,0 +1,117 @@
+[4mTiming Report: output/synthesis/timing_riscv_core.rpt:(B[m
+
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : riscv_core_timing
+Version: J-2014.09-SP4
+Date   : Wed Apr 27 18:10:41 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: RISCV_Core/DEC_STG/rs1_data_E_reg[2]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: RISCV_Core/EXEC_STG/multiplier/albl_ff_reg[28]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  RISCV_Core/DEC_STG/rs1_data_E_reg[2]/CK (DFFRHQX4)      0.00 #     0.00 r
+  RISCV_Core/DEC_STG/rs1_data_E_reg[2]/Q (DFFRHQX4)       0.22       0.22 r
+  RISCV_Core/DEC_STG/rs1_data_E[2] (Decode_Stage)         0.00       0.22 r
+  RISCV_Core/EXEC_STG/rs1_data_E[2] (Execute_Stage)       0.00       0.22 r
+  RISCV_Core/EXEC_STG/multiplier/A[2] (mult_PIPELINED1_PRECISION32)
+                                                          0.00       0.22 r
+  RISCV_Core/EXEC_STG/multiplier/mult_40/A[2] (mult_PIPELINED1_PRECISION32_DW02_mult_0)
+                                                          0.00       0.22 r
+  RISCV_Core/EXEC_STG/multiplier/mult_40/U150/Y (INVX8)
+                                                          0.04       0.26 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/U276/Y (NOR2X1)
+                                                          0.14       0.40 r
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_2_10/S (ADDFHX4)
+                                                          0.30       0.70 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_3_9/CO (ADDFHX4)
+                                                          0.16       0.85 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_4_9/CO (ADDFHX4)
+                                                          0.21       1.07 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_5_9/CO (ADDFHX4)
+                                                          0.21       1.28 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/U72/Y (XOR3X4)
+                                                          0.26       1.54 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/U215/Y (NAND2BX2)
+                                                          0.08       1.62 r
+  RISCV_Core/EXEC_STG/multiplier/mult_40/U183/Y (NAND3X4)
+                                                          0.06       1.68 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_8_8/CO (ADDFHX4)
+                                                          0.22       1.89 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_9_8/CO (ADDFHX4)
+                                                          0.21       2.11 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_10_8/CO (ADDFHX4)
+                                                          0.21       2.32 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_11_8/CO (ADDFHX2)
+                                                          0.22       2.54 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_12_8/CO (ADDFHX4)
+                                                          0.22       2.76 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_13_8/CO (ADDFHX4)
+                                                          0.21       2.97 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S2_14_8/CO (ADDFHX4)
+                                                          0.21       3.19 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/S4_8/S (ADDFHX4)
+                                                          0.23       3.42 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/U508/Y (XOR2X4)
+                                                          0.14       3.55 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/A[21] (mult_PIPELINED1_PRECISION32_DW01_add_2)
+                                                          0.00       3.55 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/U180/Y (NOR2X4)
+                                                          0.10       3.65 r
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/U102/Y (INVX4)
+                                                          0.02       3.67 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/U101/Y (NAND3BX4)
+                                                          0.08       3.75 r
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/U121/Y (NAND2X4)
+                                                          0.04       3.79 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/U105/Y (OAI2BB1X4)
+                                                          0.06       3.85 r
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/U136/Y (INVX4)
+                                                          0.02       3.87 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/U68/Y (NOR2X2)
+                                                          0.07       3.94 r
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/U54/Y (AOI21X2)
+                                                          0.07       4.01 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/U110/Y (AOI21X4)
+                                                          0.09       4.11 r
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/U211/Y (XOR2X1)
+                                                          0.12       4.23 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/FS_1/SUM[26] (mult_PIPELINED1_PRECISION32_DW01_add_2)
+                                                          0.00       4.23 f
+  RISCV_Core/EXEC_STG/multiplier/mult_40/PRODUCT[28] (mult_PIPELINED1_PRECISION32_DW02_mult_0)
+                                                          0.00       4.23 f
+  RISCV_Core/EXEC_STG/multiplier/albl_ff_reg[28]/D (DFFXL)
+                                                          0.00       4.23 f
+  data arrival time                                                  4.23
+
+  clock clk (rise edge)                                   4.33       4.33
+  clock network delay (ideal)                             0.00       4.33
+  RISCV_Core/EXEC_STG/multiplier/albl_ff_reg[28]/CK (DFFXL)
+                                                          0.00       4.33 r
+  library setup time                                     -0.10       4.23
+  data required time                                                 4.23
+  --------------------------------------------------------------------------
+  data required time                                                 4.23
+  data arrival time                                                 -4.23
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

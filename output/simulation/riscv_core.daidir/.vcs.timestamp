@@ -1,0 +1,179 @@
+18       
+0 riscv_isa.vh
+0 /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/etc/systemverilog/riscv_isa.vh
+0 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/riscv_isa.vh
+0 memory_segments.vh
+0 /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/etc/systemverilog/memory_segments.vh
+0 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/memory_segments.vh
+0 riscv_abi.vh
+0 /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/etc/systemverilog/riscv_abi.vh
+0 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/riscv_abi.vh
+0 riscv_uarch.vh
+0 /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/etc/systemverilog/riscv_uarch.vh
+0 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/riscv_uarch.vh
+0 riscv_register_names.vh
+0 /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/etc/systemverilog/riscv_register_names.vh
+0 internal_defines.vh
+0 /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/etc/systemverilog/internal_defines.vh
+0 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/internal_defines.vh
+0 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447include/internal_defines.vh
+65
++define+LAB_18447=""4a""
++define+SIMULATION_18447
++error+20
++incdir+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447include
++incdir+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src
++incdir+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src
++incdir+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages
++itf+/afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64/lib/vcsdp.tab
++lint=PCWM,IWU,TFIPC,ONGS,VNGS,IRIMW,UI,CAWM-L
++memcbk
++memcbk
++vcsd
++vpi
++warn=all
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64/lib/libvirsim.so /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64/lib/liberrorinf.so /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64/lib/libsnpsmalloc.so
+-Mout=riscv_core
+-Msaverestoreobj=/afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/include
+-Xpiyushb1=0x80
+-debug_access+all+dmptf+bc
+-debug_access+class+driver+dmptf+bc
+-debug_region=cell+lib
+-debug_region=cell+lib
+-gen_obj
+-j4
+-nofalseneg
+-o riscv_core
+-picarchive
+-q
+-sverilog
+-xzcheck
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/exception_unit.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/main_memory.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/mult.v
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/register_file.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/riscv_core_timing.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/sram.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/syscall_unit.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/testbench.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/branch_pred_handler.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/cache.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/hazard_handler.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/lib.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_counter.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/decode_stage.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/execute_stage.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/fetch_stage.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/fetch_stage2.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/mem_stage.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/writeback_stage.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/riscv_core.sv
+/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/riscv_decode.sv
+/afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64/bin/vcs1
+57
+sysc_uni_pwd=/afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/output/simulation
+XDG_SESSION_ID=52505
+XDG_RUNTIME_DIR=/run/user/2650158
+XDG_DATA_DIRS=/afs/andrew.cmu.edu/usr17/abhanjoi/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+VSCODE_IPC_HOOK_CLI=/run/user/2650158/vscode-ipc-28a09c47-0575-4a03-8e31-e9f066cbf9a7.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/2650158/vscode-git-fb5202e3f4.sock
+VSCODE_GIT_ASKPASS_NODE=/afs/andrew.cmu.edu/usr17/abhanjoi/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/node
+VSCODE_GIT_ASKPASS_MAIN=/afs/andrew.cmu.edu/usr17/abhanjoi/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=32
+VCS_VERSION=vcs-mx_vK-2015.09
+VCS_TARGET_ARCH=amd64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LIC_EXPIRE_WARNING=0
+VCS_HOME=/afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH_OVERRIDE=linux
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64
+TMOUT=604800
+TEST=/bin/test
+TERM_PROGRAM_VERSION=1.66.2
+TERM_PROGRAM=vscode
+SYNOPSYS_LICENSE=/afs/ece.cmu.edu/support/synopsys/license.dat
+SYNOPSYS_HOME=/afs/ece.cmu.edu/support/synopsys/synopsys.release
+SSH_CONNECTION=172.26.10.22 58223 128.2.131.23 22
+SSH_CLIENT=172.26.10.22 58223 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+MFLAGS=
+MAKEOVERRIDES=${-*-command-variables-*-}
+MAKELEVEL=1
+MAKEFLAGS=TEST=benchmarks/mixed.c
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KRB5CCNAME=KEYRING:persistent:2650158
+KDEDIRS=/usr
+HISTCONTROL=ignoredups
+GIT_ASKPASS=/afs/andrew.cmu.edu/usr17/abhanjoi/.vscode-server/bin/dfd34e8260c270da74b5c2d86d61aee4b6d56977/extensions/git/dist/askpass.sh
+DC_VERSION=syn-vJ-2014.09-SP4
+DC_HOME=/afs/ece.cmu.edu/support/synopsys/synopsys.release/syn-vJ-2014.09-SP4
+CVS_RSH=ssh
+COLORTERM=truecolor
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+AKLOG=/usr/bin/aklog
+0
+28
+1650834338 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/internal_defines.vh
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/riscv_register_names.vh
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447include/riscv_uarch.vh
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447include/riscv_abi.vh
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447include/memory_segments.vh
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447include/riscv_isa.vh
+1649518388 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/riscv_decode.sv
+1651105046 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/riscv_core.sv
+1651098569 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/writeback_stage.sv
+1651101995 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/mem_stage.sv
+1651007912 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/fetch_stage.sv
+1650578579 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/fetch_stage2.sv
+1651064774 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/execute_stage.sv
+1651098569 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_stages/decode_stage.sv
+1651100660 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/pipeline_counter.sv
+1649518388 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/lib.sv
+1650752104 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/hazard_handler.sv
+1651101838 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/cache.sv
+1650830934 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/src/branch_pred_handler.sv
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/testbench.sv
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/syscall_unit.sv
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/sram.sv
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/riscv_core_timing.sv
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/register_file.sv
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/mult.v
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/main_memory.sv
+1649518387 /afs/andrew.cmu.edu/usr17/abhanjoi/private/18447/lab-4-bond-james-bond/447src/exception_unit.sv
+1440562444 /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64/lib/vcsdp.tab
+4
+0 
+1440563255 /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64/lib/libvirsim.so
+1440562843 /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64/lib/liberrorinf.so
+1440562824 /afs/ece.cmu.edu/support/synopsys/synopsys.release/vcs-mx_vK-2015.09/linux64/lib/libsnpsmalloc.so
+1651105331 riscv_core.daidir

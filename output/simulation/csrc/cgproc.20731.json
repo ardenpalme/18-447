@@ -1,0 +1,13 @@
+{
+    "Modules": {
+        "clock": {},
+        "main_memory": {},
+        "delay_buffer": {},
+        "Locate_Hazard": {},
+        "register": {},
+        "RISCV_ABI": {}
+    },
+    "CompUnits": {},
+    "reusePaths": {},
+    "ObjArchives": []
+}
